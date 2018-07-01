@@ -17,36 +17,59 @@
     display: inline-block;
     float: left;
 }
-
 .logo .change{
-    color: #00C49D;
+    color: #27c6ab;
 }
-
 header{
     background-color: black;
     color: white;
-    height: 40px;
-    padding-top: 13px;
+    height: 2.5rem;
+    padding: 10px;
 }
-
 nav{
-    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+ol {
+    font-size: 15px;
+    font-weight: 600;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 2em;
+
+}
+ol>li{
+    float: left;
+    width: 110px;
+}
+ol a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 0 5px;
 }
 
-nav ul li {
-    display: inline-block;
-    font-size: 15px;
-    margin-right: 20px;
-    font-family: Arial;
-    font-weight: 600;
+ol> li > ul {
+    background-color: #000000;
+    text-align: justify;
+    padding: 0;
+    margin: 0 ;
+    font-weight: 500;
+    border-top: 1px solid #ffffff;
+    list-style-type: none;
+}
+ ul a {
     margin-left: 10px;
+
 }
-#first{
-    width: 100%;
-}
+ .dropdown{
+    display: none;
+ }
 
 .change{
-    color: aquamarine;
+    color: #27c6ab;
 }
 #first{
     background: rgba(226,226,226,1);
@@ -58,6 +81,7 @@ nav ul li {
     background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#d1d1d1', GradientType=0 );
     height: 505px;
+    width: 100%;
 }
 
 .arrow-slider{
@@ -78,14 +102,14 @@ nav ul li {
     clear: both;
 }
 .arrow{
-    color: #00C49D;
+    color: #27c6ab;
     font-size: 80px;
     font-weight: 300;
 }
 
 .arrow:hover{
     cursor: pointer;
-    color: aquamarine;
+    color: #27c6ab;
 }
 
 .arrow:active{
@@ -112,14 +136,14 @@ h2{
 
 h2 .change{
     font-weight: 700;
-    color: #00C49D
+    color: #27c6ab
 }
 
 .popup{
     width: 270px;
     height: 50px;
     margin: 45px auto;
-    background-color: #00C49D;
+    background-color: #27c6ab;
     text-transform: uppercase;
     line-height: 50px;
     font-size: 25px;
@@ -178,7 +202,7 @@ h2 .change{
     font-weight: normal;
 }
 .type-chair p{
-    border-bottom: 7px solid #00C49D;
+    border-bottom: 7px solid #27c6ab;
     width: 150px;
 }
 
@@ -192,7 +216,7 @@ h2 .change{
 }
 
 .text-photo span{
-    border-bottom: 6px solid #00C49D;
+    border-bottom: 6px solid #27c6ab;
     display: block;
     width: 40%;
     letter-spacing: 0;
@@ -224,7 +248,7 @@ h2 .change{
 .title-section {
     font-weight: 500;
     font-size: 22px;
-    border-bottom: 7px solid #00C49D;
+    border-bottom: 7px solid #27c6ab;
     width: 29%;
     padding: 35px 0 0 0;
     margin: 0 0 0 15px;
@@ -242,10 +266,11 @@ h2 .change{
     position: relative;
     float: left;
     margin: 70px 15px 0 15px;
+    background-color: #f8f8f8;
 }
-.box-center{
-    background-color: #00C49D;
-    border: #00C49D;
+.box_center{
+    background-color: #27c6ab;
+    border: #27c6ab;
 }
 
 .outer-circle{
@@ -256,19 +281,18 @@ h2 .change{
     background-color: #ffffff;
     transform: translate(250%, -60%);
 }
-.box-center .outer-circle{
-    background-color: #00C49D;
-    border: #00C49D;
+.box_center .outer-circle{
+    background-color: #27c6ab;
+    border: #27c6ab;
 }
 .inner-circle{
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    border: 2px solid #d3d3d3;
     background-color: #d3d3d3;
-    transform: translate(50%, 50%);
+    transform: translate(52%, 50%);
 }
-.box-center .inner-circle{
+.box_center .inner-circle{
     background-color: #ffffff;
     border: white;
     transform: translate(60%, 55%);
@@ -278,7 +302,7 @@ h2 .change{
     font-weight: 300;
     font-size: 25px;
     transform: translate(0, -80%);
-    color: #00C49D;
+    color: #27c6ab;
     letter-spacing: -1px;
 }
 .center-description{
@@ -303,7 +327,7 @@ h2 .change{
     font-size: 20px;
 }
 .box-center .price-circle{
-    border: #00C49D;
+    border: #27c6ab;
 }
 .price-month{
     list-style-type: none;
@@ -311,10 +335,10 @@ h2 .change{
     font-size: 15px;
 }
 .box-center .price-circle{
-    color: #00C49D;
+    color: #27c6ab;
 }
 .box-center .price-month{
-    color: #00C49D;
+    color: #27c6ab;
 }
 .list-choices{
     list-style-type: none;
@@ -354,7 +378,7 @@ h2 .change{
     background-color: snow;
 }
 .price-button{
-    background-color: #00C49D;
+    background-color: #27c6ab;
     width: 120px;
     height: 35px;
     color: #ffffff;
@@ -367,7 +391,7 @@ h2 .change{
 }
 .button-center{
     background-color: #ffffff;
-    color: #00C49D;
+    color: #27c6ab;
 }
 .price-button:hover{
     cursor: pointer;
@@ -377,7 +401,6 @@ h2 .change{
 }
 #four{
     height: 600px;
-
 }
 form{
     width: 670px;
@@ -386,13 +409,13 @@ form{
 .form-contact{
     font-weight: 500;
     font-size: 22px;
-    border-bottom: 7px solid #00C49D;
+    border-bottom: 7px solid #27c6ab;
     width: 29%;
     padding: 60px 0 0 0;
     margin: 0 0 0 15px;
 }
 .form-info{
-    border: 1px solid #00C49D;
+    border: 1px solid #27c6ab;
     width: 650px;
     height: 70px;
     margin: 45px 0 0 15px;
@@ -440,12 +463,12 @@ form{
 }
 .text-holder:hover input ~ .checkmark {
     background-color: #ffffff;
-    border: 1px solid #00C49D;
+    border: 1px solid #27c6ab;
 }
 
 .text-holder input:checked ~ .checkmark {
     background-color: #ffffff;
-    border: 1px solid #00C49D;
+    border: 1px solid #27c6ab;
 }
 .checkmark:after {
     content: "";
@@ -460,7 +483,7 @@ form{
     top: 0;
     width: 12px;
     height: 20px;
-    border: solid #00C49D;
+    border: solid #27c6ab;
     border-width: 0 5px 5px 0;
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -481,7 +504,6 @@ form{
 }
 .form-button:hover{
     cursor: pointer;
-
 }
 .form-button:active{
     width: 360px;
